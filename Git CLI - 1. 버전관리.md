@@ -46,7 +46,6 @@
 > ### add를 커밋할 때마다 하지 않는 방법
 >> git add . : 현재 디렉토리 밑에있는 모든 파일을 add한다. 꼭 파일명 하나하나를 지정하지 않아도 돼.
 >> git commit -am "" : add와 commit을 한번에!
-
 >### commit메시지를 작성할 때 실행되는 기본 에디터를 변경하는 방법
 >> git config --global core.editor "nano"
 
