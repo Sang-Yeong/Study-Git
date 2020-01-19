@@ -1,4 +1,4 @@
-#[Git CLI - Backup]
+# [Git CLI - Backup]
 
 ## 용어정리
 - Local Repository --> (push) --> Remote Repository ; 같은 상태 유지 가능, 백업
