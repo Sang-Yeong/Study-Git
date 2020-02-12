@@ -15,6 +15,7 @@
 …or push an existing repository from the command line
 
 > git remote add origin https://github.com/Sang-Yeong/my-repo.git
+
 > git push -u origin master
 
 ```
@@ -35,11 +36,13 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 ```
 
 > git remote: 원격저장소 제대로 연결 되었는지 확인
+
 > git remote -v: 원격저장소의 주소 확인
 
 
 ## git push
 > git push
+
 > git push --set-upstream origin master: origin을 git push 키워드를 썼을때 기본적인 저장소로 set해놓기 위한 명령어
 
 
