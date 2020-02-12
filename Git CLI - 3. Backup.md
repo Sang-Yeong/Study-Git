@@ -13,8 +13,21 @@
 ## 원격저장소와 연결
 - 깃허브; HTTPS
 …or push an existing repository from the command line
+
+```
 git remote add origin https://github.com/Sang-Yeong/my-repo.git
 git push -u origin master
+// 이 과정에서
+error: failed to push some refs to 'https://github.com/Sang-Yeong/Study-Kotlin.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+이런 error발생 할 수 O
+README
+```
 
 > git remote: 원격저장소 제대로 연결 되었는지 확인
 > git remote -v: 원격저장소의 주소 확인
