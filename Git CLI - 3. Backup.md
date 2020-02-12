@@ -14,19 +14,24 @@
 - 깃허브; HTTPS
 …or push an existing repository from the command line
 
+> git remote add origin https://github.com/Sang-Yeong/my-repo.git
+> git push -u origin master
+
 ```
-git remote add origin https://github.com/Sang-Yeong/my-repo.git
-git push -u origin master
-// 이 과정에서
-error: failed to push some refs to 'https://github.com/Sang-Yeong/Study-Kotlin.git'
+git push -u origin master을 작성하고 실행시키는 과정에서
+
+error: failed to push some refs to 'https://github.com/Sang-Yeong/myrepo.git'
 hint: Updates were rejected because the remote contains work that you do
 hint: not have locally. This is usually caused by another repository pushing
 hint: to the same ref. You may want to first integrate the remote changes
 hint: (e.g., 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
-이런 error발생 할 수 O
-README
+이런 error발생 할 수 O <-- README.md 때문
+
+> git pull origin master --allow-unrelated-histories
+
+문장이 필요함.
 ```
 
 > git remote: 원격저장소 제대로 연결 되었는지 확인
