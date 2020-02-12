@@ -30,7 +30,7 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 이런 error발생 할 수 O <-- README.md 때문
 
-> **git pull origin master --allow-unrelated-histories**
+> git pull origin master --allow-unrelated-histories
 
 문장이 필요함.
 ```
