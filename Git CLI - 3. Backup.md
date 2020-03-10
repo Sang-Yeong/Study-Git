@@ -45,6 +45,9 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 > git push --set-upstream origin master: origin을 git push 키워드를 썼을때 기본적인 저장소로 set해놓기 위한 명령어
 
+※ 강제push;   레파지토리에 있는 기존 파일들 삭제O, 새로 커밋하는 파일만 남게됨.
+> git push -u origin +master
+
 
 ## git clone
 저장소를 만드는 방법 2가지: init, clone
